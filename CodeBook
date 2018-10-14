@@ -1,18 +1,18 @@
 Once the data is downloaded and unzipped there are 2 folders - test and train and following files
-  -	features_info.txt: Shows information about the variables used on the feature vector.
-	-	features.txt': List of all features.
-	-	activity_labels.txt': Links the class labels with their activity name.
+  - features_info.txt: Shows information about the variables used on the feature vector.
+  - features.txt': List of all features.
+  - activity_labels.txt': Links the class labels with their activity name.
   - Test folder has
-      - Inertial Signals: Not required in this project
+      - Inertial Signals: Not used in this project
       -	test/X_test.txt: Test set.
-	    -	test/y_test.txt': Test labels.
+      -	test/y_test.txt': Test labels.
   - Train folder has
-      - Inertial Signals: Not required in this project
-     	-	train/X_train.txt': Training set.
-	  -	train/y_train.txt': Training labels.
-  - Variables used in the Script :
+      - Inertial Signals: Not used in this project
+      -	train/X_train.txt': Training set.
+      -	train/y_train.txt': Training labels.
   
-	x_train	- Features for training data set
+  - Variables used in the R Script (run_analysis.R) :
+  	x_train	- Features for training data set
 	y_train - Activity id in training data set
 	sub_train - Subject id in training data set
 
